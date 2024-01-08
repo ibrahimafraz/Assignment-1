@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Header section styles start here. */
+
+.container{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px 120px auto;
+    background-image:
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../images/banner.png);
+    border-radius: 16px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-items h1{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 28px;
+font-weight: 70;
+padding-top: 220px;
+margin-bottom: 10px;
+line-height: normal;
+
+}
+.text-items p {
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 65px;
+font-weight: 650;
+
+}
+/* Header section styles end here. */
