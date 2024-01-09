@@ -9,7 +9,7 @@
 .container{
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px 120px auto;
+    margin: 50px auto;
     background-image:
     linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../images/banner.png');
     border-radius: 16px;
@@ -269,9 +269,7 @@ flex-shrink: 0;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
-font-style: normal;
 font-weight: 900;
-line-height: normal;
 margin-bottom: 28px;
 }
 .only-text p{
@@ -286,3 +284,127 @@ line-height: 32px; /* 160% */
 /* .all-img{
     display: flex;
 } */
+
+/* portfolio section start */
+.portfolio{
+    width: 82.5%;
+   max-width: 1320px;
+   margin: 0 auto;
+  
+}
+.portfolio .texts h1{
+    color: #F00;
+font-family: Inter;
+font-size: 30px;
+font-weight: 550;
+
+}
+.portfolio .texts h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 760;
+text-transform: capitalize;
+margin: 22px 0;
+}
+.portfolio .texts p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 32px;
+
+
+}
+.portfolio .img-section-1{
+    width: 82.5%;
+    max-width: 1320px;
+    display: flex;
+    gap: 10px 10px ;
+    margin: 15px;
+
+}
+.portfolio .img-section-2{
+    display: flex;
+    gap: 10px 10px ;
+  margin: 15px;
+}
+.images{
+    width: 424px;
+height: 450px;
+flex-shrink: 0;
+border-radius: 16px;
+}
+
+/* .newsletter */
+.newsletter{
+background: rgba(255, 0, 0, 0.05);
+width: 82.5%;
+height: 616px;
+max-width: 1320px;
+margin: 120px auto;
+border-radius: 16px;
+text-align: center;
+
+}
+.content-box{
+    padding-top: 80px;
+}
+.newsletter-text h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;  
+    margin-top: 22px;
+}
+.newsletter-text p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+padding: 22px ;
+}
+
+.subscribe-email{
+    text-align: center;
+    display: block;
+    margin-top: 48px;
+    
+}
+.subscribe-email > input[type="email"] {
+    width: 500px;
+    padding: 25px 30px;
+    background-color: #FFF;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    box-sizing: border-box;
+   outline: none;
+    
+}
+.subscribe-email > input[type="button"] {
+        padding: 24px 50px;
+        border-radius: 0px 50px 50px 0px;
+        border: 0;
+        color: #FFF;
+        background: #F00;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+}
+/* :end */
+
+
+.footer{
+    
+    height: 609px;
+    background: #070211;
+    padding: 120px 140px;
+}
