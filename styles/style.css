@@ -188,8 +188,7 @@ padding-top: 100px;
 .all-contents{
     display: flex;
     align-items: center;
-
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .div1{
     margin-top: 40px;
@@ -251,11 +250,42 @@ flex-shrink: 0;
 }
 /* coming soon section end  */
 
+/* Holidays Sale 50% section start */
 .flash-section-sale{
     width: 82.5%;
+    margin-top: 120px;
     max-width: 1320px;
     margin: 120px auto;
+    height: 1000px;
+    text-align: center;
+    position: relative;
 }
+.flash-section-all-img{
+    margin-top: 65px;
+    position: absolute;
+    padding: 50px 0px;
+    z-index: -100;
+    text-align: center;
+}
+.flash-section-all-img > .red{
+    position: absolute;
+    margin: 433px 0px;
+    width: 1240px;
+}
+.flash-section-all-img > .gift-box {
+    position: absolute;
+    width: 600px;
+    margin: 115px 10px;
+}
+.flash-section-all-img > .lady-img{
+    position: absolute;
+    margin: 0px 810px;
+}
+.flash-section-all-img > .dis-50{
+    position: absolute;
+    margin: 72px 654px;
+}
+
 .only-text h3{
     color: #070211;
     font-family: Inter;
@@ -281,9 +311,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
 }
-/* .all-img{
-    display: flex;
-} */
+
+/* Holidays Sale 50% section end */
+
+
 
 /* portfolio section start */
 .portfolio{
@@ -291,6 +322,10 @@ line-height: 32px; /* 160% */
    max-width: 1320px;
    margin: 0 auto;
   
+}
+.product-images{
+    width: 82.5%;
+    max-width: 1320px;
 }
 .portfolio .texts h1{
     color: #F00;
